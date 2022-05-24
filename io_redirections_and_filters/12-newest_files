@@ -1,2 +1,2 @@
 #!/bin/bash
-ls --time status | tail
+ls --time access | tail
