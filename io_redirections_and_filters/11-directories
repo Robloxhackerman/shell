@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type -name "." d -exec wc -l 
+find . -type d -name "." -exec wc -l 
