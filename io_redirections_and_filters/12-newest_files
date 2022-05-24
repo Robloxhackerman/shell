@@ -1,2 +1,2 @@
 #!/bin/bash
-find -newer | tail
+ls --time status | tail
