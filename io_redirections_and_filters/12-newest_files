@@ -1,2 +1,2 @@
 #!/bin/bash
-ls --time use | tail
+ls -tl | tail
