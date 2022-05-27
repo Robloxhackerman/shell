@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#
+#
+pepe=0
+while [ $pepe -lt 10]
+do
+	echo "Best School"
+done
