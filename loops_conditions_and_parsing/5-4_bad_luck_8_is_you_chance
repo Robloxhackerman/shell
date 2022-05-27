@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#
+#
+PEPE1=1
+PEPE2=9
+
+while [ $PEPE1 -lt $PEPE2 ]
+do
+	echo "Best School"
+
+	if [ $PEPE1 -eq 3 ]
+	then
+		echo "bad luck"
+	elif [ $PEPE1 -eq 6 ]
+	then
+		echo "good luck"
+	fi
+
+	((PEPE1++))
+done
+
