@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 #
 #
-pepe=0
-while [ $pepe -lt 10 ]
+PEPE=0
+while [ $PEPE -lt 10 ]
 do
 	echo "Best School"
+	let PEPE=$PEPE+1
 done
