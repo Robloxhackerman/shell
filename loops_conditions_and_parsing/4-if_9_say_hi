@@ -1,0 +1,17 @@
+#!/usr//bin/env bash
+#
+#
+PEPE1=0
+PEPE2=11
+
+while [ $PEPE1 -ne $PEPE2 ]
+do
+	echo "Best School"
+
+	if [ $PEPE1 -eq 9 ];
+	then
+		echo "Hi"
+	fi
+
+	((PEPE1++))
+done
