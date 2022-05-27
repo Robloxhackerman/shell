@@ -5,5 +5,5 @@ PEPE=0
 while [ $PEPE -lt 10 ]
 do
 	echo "Best School"
-	let PEPE=$PEPE+1
+	((PEPE++))
 done
