@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#
+#
+pepe1=0
+pepe2=10
+
+until [$PEPE1 -lt $PEPE2 ]
+do
+	echo "Best School"
+	((PEPE1++))
+done
