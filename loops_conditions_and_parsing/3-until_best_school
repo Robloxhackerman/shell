@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 #
-PEPE1=0
+PEPE1=1
 PEPE2=10
 until [ $PEPE2 -lt $PEPE1 ]
 do
