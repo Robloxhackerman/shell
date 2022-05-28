@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#
+#
+PEPE="/etc/passwd"
+
+while read LINE
+do
+	echo "$LINE" | cut -d ":" -f 1,3,6
+done < "$PEPE"
