@@ -3,7 +3,7 @@
 #
 PEPE="school"
 
-if [ -e "$FILE" ]
+if [ -e "$PEPE" ]
 then
 	echo "school file exists"
 
@@ -16,7 +16,6 @@ then
 	if [ -f "$PEPE" ]
 	then
 		echo "school is a regular file"
-	else
 	fi
 
 	echo "school file does not exist"
