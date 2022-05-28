@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#
+#
+PEPE="$(ls)"
+
+for i in $PEPE;
+do
+    echo "$i" | cut -d "-" -f2
+done
