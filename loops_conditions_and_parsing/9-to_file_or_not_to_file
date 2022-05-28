@@ -16,7 +16,8 @@ then
 	if [ -f "$PEPE" ]
 	then
 		echo "school is a regular file"
-	else
-		echo "school file does not exist"
 	fi
+	
+else
+	echo "school file does not exist"	
 fi
