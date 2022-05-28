@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+#
+#
+PEPE1=1
+PEPE2=100
+
+while [ $PEPE1 -le $PEPE2 ]
+do
+	if [ $((PEPE1%3)) == 0 ] && [ $((PEPE1%5)) == 0 ]
+	then
+		echo "FizzBuzz"
+	elif [ $((PEPE1%3)) == 0 ]
+	then
+		echo "Fizz"
+	elif [ $((PEPE1%5)) == 0 ]
+	then
+		echo "Buzz"
+	else
+		echo "$PEPE1"
+	fi
+
+	((PEPE1++))
+done

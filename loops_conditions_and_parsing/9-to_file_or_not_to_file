@@ -2,6 +2,7 @@
 #
 #
 PEPE="school"
+
 if [ -e "$PEPE" ]
 then
 	echo "school file exist"
