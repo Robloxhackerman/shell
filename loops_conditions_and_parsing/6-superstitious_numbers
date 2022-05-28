@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+#
+#
+PEPE1=1
+PEPE2=20
+
+while [ $PEPE1 -le $PEPE2 ]
+do
+	case $PEPE1 in
+		4)
+			echo "4"
+			echo "bad luck from China"
+			;;
+		9)
+			echo "9"
+			echo "bad luck from Japan"
+			;;
+		17)
+			echo "17"
+			echo "bad luck from Italy"
+			;;
+		*)
+			echo "$PEPE1"
+			;;
+	esac
+
+	((PEPE1++))
+done
