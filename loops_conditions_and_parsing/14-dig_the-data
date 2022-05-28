@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#
+#
+PEPE="apache-access.log"
+awk '{print $1, $9}' $PEPE | sort | uniq -c | sort -nr
