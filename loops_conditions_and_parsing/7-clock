@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-PEPE_M1=0
+PEPE_M1=1
 PEPE_M2=59
 PEPE_H1=0
 PEPE_H2=12
@@ -14,6 +14,6 @@ do
 		echo "$PEPE_M1"
 		((PEPE_M1++))
 	done
-	((PEPE_M1=0))
+	((PEPE_M1=1))
 	((PEPE_H1++))
 done
