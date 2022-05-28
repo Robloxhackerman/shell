@@ -1,18 +1,19 @@
 #!/usr/bin/env bash
 #
 #
-if [ -e "school" ]
+PEPE="school"
+if [ -e "$PEPE" ]
 then
 	echo "school file exist"
 
-	if [ -s "school" ]
+	if [ -s "$PEPE" ]
 	then
 		echo "school file is not empty "
 	else
 		echo "school file is empty"
 	fi
 
-	if [ -f "school" ]
+	if [ -f "$PEPE" ]
 	then
 		echo "school is a regular file"
 	fi
