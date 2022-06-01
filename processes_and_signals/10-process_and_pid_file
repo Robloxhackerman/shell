@@ -8,6 +8,7 @@ echo $BASHPID > /var/run/myscript.pid
 
 trap 'echo "I hate the kill command"' SIGTERM
 trap 'echo "Y U no love me?"' SIGINT
+trap 'rm /var/run/myscrit.pid' SIGQUIT
 
 while [ $PEPE1 -eq $PEPE2 ]
 do
