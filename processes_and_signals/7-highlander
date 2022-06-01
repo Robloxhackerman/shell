@@ -5,7 +5,7 @@ PEPE_S="I am invincible"
 PEPE1=1
 PEPE2=1
 
-trap '$PEPE_S' SIGTERM
+trap '$PEPE_S' 15
 
 while [ $PEPE1 -eq $PEPE2 ]
 do
