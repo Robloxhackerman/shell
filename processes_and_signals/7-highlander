@@ -5,7 +5,8 @@ PEPE_S=$(echo "I am invincible")
 PEPE1=1
 PEPE2=1
 
-trap $PEPE_S SIGTERM
+trap "$PEPE_S" SIGTERM
+
 while [ $PEPE1 -eq $PEPE2 ]
 do
 	echo "To infinity and beyond"
