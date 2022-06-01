@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#
+#
+PEPE1=1
+PEPE2=1
+
+while [ $PEPE1 -eq $PEPE2 ]
+do
+	echo "I am alive!" >> /tmp/my_process
+	sleep 2
+done
