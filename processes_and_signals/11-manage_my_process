@@ -8,10 +8,10 @@ then
 	echo "$!" >> /var/run/my_process.pid
 	echo "$PEPE started"
 
-elif [ "${1}" == "start" ]
+elif [ "${1}" == "stop" ]
 then
 	kill "$!"
-	rm /var/run/my_process
+	rm /var/run/my_process.pid
 	echo "$PEPE stopped"
 
 elif [ "${1}" == "restart" ]
