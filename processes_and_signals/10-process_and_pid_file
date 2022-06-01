@@ -4,8 +4,11 @@
 PEPE1=1
 PEPE2=1
 
+echo $BASHPID > /var/run/myscript.pid
+
 trap 'echo "I hate the kill command"' SIGTERM
 trap 'echo "Y U no love me?"' SIGINT
+
 while [ $PEPE1 -eq $PEPE2 ]
 do
 	echo "To infinity and beyond"
