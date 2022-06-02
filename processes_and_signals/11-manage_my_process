@@ -11,13 +11,13 @@ then
 elif [ "${1}" == "stop" ]
 then
 	kill "$(cat /var/run/my_process.pid)"
-	sudo rm /var/run/my_process.pid
+	
 	echo "$PEPE stopped"
 
 elif [ "${1}" == "restart" ]
 then
 	kill "$(cat /var/run/my_process.pid)"
-	sudo rm /var/run/my_process.pid
+	
 	./manage_my_process &
 	echo "$!" > /var/run/my_process.pid
 	echo "$PEPE restarted"
